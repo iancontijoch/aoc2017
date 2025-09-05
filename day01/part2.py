@@ -12,11 +12,12 @@ INPUT_TXT = os.path.join(os.path.dirname(__file__), 'input.txt')
 
 def compute(s: str) -> int:
     line = s.splitlines()[0]
+    size = len(line)
 
     return sum(
         int(n_s)
         for i, n_s in enumerate(line)
-        if int(n_s) == int(line[(i + 1) % len(line)])
+        if int(n_s) == int(line[(i + size // 2) % len(line)])
     )
 
 
@@ -29,10 +30,11 @@ EXPECTED = 1
 @pytest.mark.parametrize(
     ('input_s', 'expected'),
     (
-        ('1122', 3),
-        ('1111', 4),
-        ('1234', 0),
-        ('91212129', 9),
+        ('1212', 6),
+        ('1221', 0),
+        ('123425', 4),
+        ('123123', 12),
+        ('12131415', 4),
     ),
 )
 def test(input_s: str, expected: int) -> None:
