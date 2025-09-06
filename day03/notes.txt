@@ -1,2 +1,8 @@
 == part 1 ==
 371
+That's the right answer!
+
+
+> 38902 μs
+answer: 369601
+That's the right answer!
