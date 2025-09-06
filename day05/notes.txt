@@ -1,0 +1,4 @@
+== part 1 ==
+> 25599 μs
+answer: 360603
+That's the right answer!
