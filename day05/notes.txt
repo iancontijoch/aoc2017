@@ -2,3 +2,8 @@
 > 25599 μs
 answer: 360603
 That's the right answer!
+
+== part 2 ==
+> 1752 ms
+answer: 25347697
+That's the right answer!
