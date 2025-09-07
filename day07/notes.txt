@@ -1,3 +1,12 @@
 == part 1 ==
 eqgvf
 > 944 μs
+
+== part 2 ==
+> 1298 μs
+answer: 52954
+That's not the right answer; your answer is too high.
+
+> 1145 μs
+answer: 757
+That's the right answer!
