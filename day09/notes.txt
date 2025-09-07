@@ -6,3 +6,8 @@ That's not the right answer; your answer is too high.
 > 604 μs
 answer: 11846
 That's the right answer!
+
+== part 2 ==
+> 396 μs
+answer: 6285
+That's the right answer!
