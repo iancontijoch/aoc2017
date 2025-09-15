@@ -1,0 +1,10 @@
+== part 1 ==
+> 49 μs
+answer: 48180
+That's not the right answer; your answer is too low.
+
+> 41 μs
+answer: 54675
+That's the right answer!
+
+== part 2 ==
