@@ -1,0 +1,12 @@
+== part 2 ==
+answer: 530
+That's not the right answer; your answer is too low.
+
+
+> 2766 μs
+answer: 1066
+That's not the right answer; your answer is too low.
+
+> 3127 μs
+answer: 1524
+That's the right answer!
