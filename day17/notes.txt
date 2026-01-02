@@ -2,3 +2,31 @@
  0 (1)  (0, 0, 0) -> (0, [0], 0, 1)
  0 (2) 1 -> (0, 1, 0) -> (0, 1, [0], 2)
  0 (2) (3) 1 ->
+
+== part 2 ==
+answer: 49999999
+That's not the right answer; your answer is too high.
+
+== part 2 ==
+answer: 50000001
+That's not the right answer; your answer is too high.
+
+
+answer: 1222153
+That's not the right answer; your answer is too low
+
+answer: 10150888
+That's the right answer!
+
+
+i = 8
+0 (9) 5  7  2  4  3  8  6  1
+
+-9-
+0 9 5  7  2 (10) 4  3  8  6  1
+
+-10-
+0 9 5  7  2 10 4  3  8 (11)  6  1
+
+-11-
+0 (12) 9 5  7  2 10 4  3  8 11  6  1
