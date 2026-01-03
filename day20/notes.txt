@@ -1,0 +1,8 @@
+== part 1 ==
+> 79653 μs
+answer: 192
+That's not the right answer; your answer is too high.
+
+> 7475 ms
+answer: 91
+That's the right answer!
