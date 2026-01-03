@@ -1,0 +1,8 @@
+== part 2 ==
+> 1108 μs
+answer: 127
+That's not the right answer; your answer is too low.
+
+> 49863 μs
+answer: 5969
+That's the right answer!
