@@ -14,3 +14,7 @@ That's not the right answer; your answer is too low.
 > 199 ms
 answer: 567
 That's the right answer!
+
+> 67959 μs
+answer: 43
+That's not the right answer.
