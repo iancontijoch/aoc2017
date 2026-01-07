@@ -68,3 +68,12 @@ That's the right answer!
 
 1 1 1 0/1 1 1 0/0 1 0 1/1 1 1 0
 ###./###./.#.#/###.
+
+== part 2 ==
+> 194 ms
+answer: 61
+That's not the right answer.
+
+> 24386 ms
+answer: 3081737
+That's the right answer!
