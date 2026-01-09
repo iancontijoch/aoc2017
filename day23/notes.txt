@@ -1,0 +1,9 @@
+== part 1 ==
+
+> 41 μs
+answer: 1
+That's not the right answer.
+
+> 12854 μs
+answer: 4225
+That's the right answer!
