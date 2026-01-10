@@ -7,3 +7,50 @@ That's not the right answer.
 > 12854 μs
 answer: 4225
 That's the right answer!
+
+
+== part 2 ==
+answer: 106700
+That's not the right answer; your answer is too high.
+
+answer: 67
+That's not the right answer
+
+
+set b 67                    b = 67
+set c b                     c = 67
+jnz a 2                     jump 2
+jnz 1 5                     skip
+mul b 100                   b = 6_700
+sub b -100000               b = 106700
+set c b                     c = 106700
+sub c -17000                c = 123700
+set f 1                     f = 1
+set d 2                     d = 2
+set e 2                     e = 2
+set g d                     g = 2
+mul g e                     g = 4
+sub g b                     g = -106696
+jnz g 2                     jump 2
+set f 0                     skip
+sub e -1                    e = 3
+set g e                     g = 3
+sub g b                     g = -106697
+jnz g -8
+sub d -1
+set g d
+sub g b
+jnz g -13  // g has to be zero
+jnz f 2    // f has to be zero
+sub h -1
+set g b    // b has to be zero
+sub g c    //
+jnz g 2    // g has to be zero
+jnz 1 3    // exit
+sub b -17
+jnz 1 -23
+
+
+d = 3: 853592
+d = 4: 1707185
+d = 5: 2560775
